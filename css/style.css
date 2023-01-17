@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('/fonts/Vazir.woff2')format('woff2'),
+    url('/fonts/Vazir.woff')format('woff'),
+    url('/fonts/Vazir.ttf')format('ttf'),
+    url('//fonts/Vazir.eot')format('eot'),;
+}
+
+*{direction: rtl;font-family:'vazir';}
+.rotate-changeInner{
+    transform: rotateY(360deg);
+    transition: 2s
+}
